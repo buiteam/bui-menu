@@ -4,7 +4,8 @@
  * @ignore
  */
 
-var BUI = require('bui-common'),
+var $ = require('jquery'),
+  BUI = require('bui-common'),
   Menu = require('./menu'),
   Component =  BUI.Component,
   CLS_MENU_TITLE = BUI.prefix + 'menu-title',

@@ -3,14 +3,15 @@
  * @ignore
  */
 
-var BUI = require('bui-common'),
-    Component =  BUI.Component,
-    UIBase = Component.UIBase,
-    PREFIX = BUI.prefix,
-    CLS_OPEN = PREFIX + 'menu-item-open',
-    CLS_CARET = 'x-caret',
-    CLS_COLLAPSE = PREFIX + 'menu-item-collapsed',
-    DATA_ID = 'data-id';
+var $ = require('jquery'),
+  BUI = require('bui-common'),
+  Component =  BUI.Component,
+  UIBase = Component.UIBase,
+  PREFIX = BUI.prefix,
+  CLS_OPEN = PREFIX + 'menu-item-open',
+  CLS_CARET = 'x-caret',
+  CLS_COLLAPSE = PREFIX + 'menu-item-collapsed',
+  DATA_ID = 'data-id';
 
 /**
  * @private
