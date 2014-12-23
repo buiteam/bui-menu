@@ -1,6 +1,6 @@
 {
   "name": "bui-menu",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "",
   "keywords": [],
   "homepage": "",
@@ -26,6 +26,7 @@
     "engines": {
       "seajs": "2.2.1"
     },
+    "buildArgs": "--ignore jquery",
     "tests": "tests/*.js"
   }
 }
